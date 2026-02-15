@@ -3,10 +3,13 @@ import java.util.Scanner;
 public class Ejercicio23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("Precio: ");   
         double precio = sc.nextDouble();
+        System.out.println("Tipo (A/B): ");
         String tipo = sc.next();
+        System.out.println("Tamaño (1/2): ");
         int tamaño = sc.nextInt();
+        System.out.println("Kilos: ");
         double kilos = sc.nextDouble();
 
         if (tipo.equals("A")) {

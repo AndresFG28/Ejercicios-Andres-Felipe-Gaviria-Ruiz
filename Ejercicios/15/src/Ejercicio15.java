@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class Ejercicio15 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("N: ");
         int n = sc.nextInt();
 
         if (n > 0)
@@ -12,5 +13,7 @@ public class Ejercicio15 {
             System.out.println("Negativo");
         else
             System.out.println("Cero");
+
+        sc.close();
     }
 }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ejercicio34 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("N: ");
         int n = sc.nextInt();
         double total = 0;
 

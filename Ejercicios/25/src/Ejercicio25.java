@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class Ejercicio25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("Minutos: ");
         int minutos = sc.nextInt();
+        System.out.println("Dia: ");
         String dia = sc.next();
+        System.out.println("Turno (mañana/tarde/noche): ");
         String turno = sc.next();
 
         double costo = 0;

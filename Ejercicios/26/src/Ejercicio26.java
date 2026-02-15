@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ejercicio26 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("Día de la semana (1-7): ");
         int d = sc.nextInt();
 
         switch (d) {

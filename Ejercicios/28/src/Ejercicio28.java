@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ejercicio28 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+         System.out.println("¡Adivina el número entre 1 y 100! Tienes 10 intentos.");
         int secreto = (int)(Math.random() * 100) + 1;
         int intentos = 10;
 
